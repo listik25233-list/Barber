@@ -1,0 +1,77 @@
+.content-section {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+ }
+  
+.content-section_white {
+    background-color: #fff;
+    color: #163561;
+  }
+
+.header {
+    display: flex;
+    color: #99BAED;
+    font-family: Catamaran;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-image {
+    padding-top: 9px;
+    max-width: 74px;
+    max-height: 74px;
+    margin-left: 170px;
+}
+
+.logo-text {
+    display: flex;
+    text-decoration: none;
+    font-family: Catamaran;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53.44px;
+    padding-top: 40px;
+    margin-left: -10px;
+}
+
+.rectangle { 
+    display: flex;
+    width: 93px;
+    height: 83px;
+    background-color: #A3C1EF;
+    margin-left: 110px;
+    border-radius:0 0 5px 5px;
+    color:#fff;
+    justify-content: center;
+    align-items: end;
+}
+
+.home {
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33.4px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.header-links {
+    display: flex;
+    color:#163561;
+    gap:48px;
+    margin-left:34px;
+    align-items: end;
+    padding-bottom: 10px;
+}
+
+.links-pref {
+    text-decoration: none;
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33.4px;   
+}
