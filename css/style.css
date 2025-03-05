@@ -168,7 +168,6 @@
     margin-top: 98px;
     margin-bottom: 138px;
     margin-left: 188px;
-    letter-spacing: 3%;
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -204,7 +203,7 @@
     margin-left: 152px;
 }
 
-.History-yellow {
+.yellow {
     color: #fbb400;
     letter-spacing: 3%;
 }
@@ -249,4 +248,99 @@
 .second-photo {
     max-width: 968px;
     max-height: 968px;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 138px;
+}
+
+.service-we {
+    max-width: 387px;
+    max-height: 164px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 81.62px;
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    margin-bottom: 272px;
+}
+
+.cards-properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 441px;
+    height: 533px;
+    border-radius: 29px;
+    background-color: #FAFBFF;
+    box-shadow: 0px 5px 0px 0px #99BAED;
+
+}
+
+.main-card-properties {
+    background-color: #99BAED;
+    box-shadow: 23px 39px 94px 0px rgba(212, 229, 255, 1);
+}
+
+.highlighting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 126px;
+    background-color: #E5ECFE;
+    border-radius: 13px;
+    margin-bottom: 59px;
+    box-shadow: 0px 1px 0px 0px #008FDD;
+}
+
+.img-cards {
+    display: flex;
+    width: 66px;
+    height: 58px;
+}
+
+.title-card {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52.47px;
+    letter-spacing: 3%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-title-card {
+    color: #FFF;
+}
+
+.text-card {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.65px;
+    letter-spacing: 3%;
+    text-align: center;
+    max-width: 359px;
+    max-height: 114px;
+}
+
+.main-text-card {
+    color: #fff;
+    
+}
+
+.our-gallery {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 81.62px;
+    letter-spacing: 3%;
+    text-align: center;
 }
