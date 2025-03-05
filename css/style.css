@@ -7,8 +7,12 @@
  }
 
 .header {
-    display: flex;
     color: #99BAED;
+    overflow: hidden;
+}
+
+.header-menu {
+    display: flex;
 }
 
 .logo {
@@ -152,7 +156,6 @@
     max-height: 114px;
     font-size: 25px;
     line-height: 37.65px;
-    letter-spacing: 3%;
     margin-left: 190px;
     color: #153461;
     margin-top: 30px;
@@ -198,14 +201,12 @@
     width: 377;
     height: 105;
     margin-top: 302px;
-    letter-spacing: 3%;
     margin-bottom: 80px;
     margin-left: 152px;
 }
 
 .yellow {
     color: #fbb400;
-    letter-spacing: 3%;
 }
 
 .paragraph-history {
@@ -214,7 +215,6 @@
     margin-right: -189px;
     font-size: 25px;
     line-height: 37.65px;
-    letter-spacing: 3%;
     margin-bottom: 48px;
 }
 
@@ -228,7 +228,6 @@
     margin-top:61px;
     margin-bottom: 138px;
     margin-right: 151px;
-    letter-spacing: 3%;
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -313,7 +312,6 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 52.47px;
-    letter-spacing: 3%;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -326,7 +324,6 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 37.65px;
-    letter-spacing: 3%;
     text-align: center;
     max-width: 359px;
     max-height: 114px;
@@ -341,6 +338,142 @@
     font-weight: 700;
     font-size: 70px;
     line-height: 81.62px;
-    letter-spacing: 3%;
     text-align: center;
+    margin-bottom: 110px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 435px 435px 435px;
+    grid-template-rows: 1fr 1fr;
+    gap: 37px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.gallery-properties {
+    position: relative;
+    max-width: 435px;
+    max-height: 435px;
+}
+
+.gallery-properties img {
+    object-fit: cover;
+    display: block;
+  }
+  
+  .gallery-properties::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(82, 150, 255, 0.35); /* Полупрозрачный синий */
+}
+
+.view-all-center {
+    display: flex;
+    justify-content: center;
+}
+
+.view-all {
+    display: flex;
+    margin-top: 77px;
+    background-color: #99BAED;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 188px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(153, 186, 237, 0.5);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 196px;
+}
+
+.footer-logo-img {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.footer-logo-text {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 134%;
+    padding-top: 70px;
+    margin-left: -31px;
+    color:#99BAED;
+    text-decoration: none;
+}
+
+.for-footer-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 151%;
+    text-align: center;
+    max-width: 526px;
+    max-height: 76px;
+}
+
+.social-media-group {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #D3E5FF;
+    margin-top: 47px;
+}
+
+.main-circle {
+    background-color: #99BAED;
+}
+
+.icon-facebook {
+    width: 19px;
+    height: 38px;
+}
+
+.icon-tiwtter {
+    width: 32px;
+    height: 26px;
+}
+
+.icon-google {
+    width: 28px;
+    height: 29px;
+}
+
+.the-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+    margin-bottom: 98px;
+}
+
+.line {
+    max-width: 1362px;
 }
