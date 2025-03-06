@@ -4,6 +4,7 @@
     max-width: 1920px;
     background-color: #fff;
     color: #163561;
+    
  }
 
 .header {
@@ -110,7 +111,26 @@
 }
 
 .main {
+    position: relative;
     overflow: hidden;
+}
+
+.border {
+    width: 432px;
+    height: 736px;
+    position: absolute;
+}
+
+.border-left {
+    left: -123px;
+}
+
+.border-right {
+    right: -123px;
+}
+
+.center-border {
+    margin-top: 140px;
 }
 
 .main-phrase {
@@ -269,7 +289,7 @@
     display: flex;
     justify-content: center;
     gap: 49px;
-    margin-bottom: 272px;
+    
 }
 
 .cards-properties {
@@ -339,6 +359,7 @@
     font-size: 70px;
     line-height: 81.62px;
     text-align: center;
+    margin-top: 135px;
     margin-bottom: 110px;
 }
 
@@ -392,12 +413,17 @@
     font-size: 20px;
     color: #fff;
     box-shadow: 0px 10px 20px 0px rgba(153, 186, 237, 0.5);
+    margin-bottom: 196px;
+}
+
+.footer {
+    overflow: hidden;
+    position: relative;
 }
 
 .footer-logo {
     display: flex;
     justify-content: center;
-    margin-top: 196px;
 }
 
 .footer-logo-img {
@@ -476,4 +502,8 @@
 
 .line {
     max-width: 1362px;
+}
+
+.footer-border {
+    top: 0px;
 }
